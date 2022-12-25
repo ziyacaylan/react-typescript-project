@@ -1,5 +1,5 @@
 import Todo from "../models/todo";
-import TodoItem from "./TodoTem";
+import TodoItem from "./TodoItem";
 
 const Todos: React.FC<{ children?: React.ReactNode; items: Todo[] }> = (
   props
