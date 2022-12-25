@@ -16,7 +16,6 @@ function App() {
   const [todos, setTodos] = useState<Todo[]>([]);
   return (
     <div>
-      <h1>React Typescript Tutorial</h1>
       <NewTodo onAddTodo={addTodoHandler} />
       <Todos items={todos} />
     </div>
